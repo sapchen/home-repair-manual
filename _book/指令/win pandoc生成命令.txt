@@ -1,0 +1,1 @@
+pandoc (Get-ChildItem *.md | Sort-Object Name) -o 家庭维修手册.epub --toc --toc-depth=2
