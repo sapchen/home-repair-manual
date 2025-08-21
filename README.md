@@ -2,6 +2,7 @@
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen?logo=github)](https://sapchen.github.io/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 
 > 一本由社区驱动、持续更新的开源家庭维修知识库。旨在用清晰易懂的图文教程，帮助您轻松解决家中常见的各种小问题，节省开支，享受自己动手的乐趣！
@@ -39,12 +40,12 @@
     -   如何恢复破损的磁盘数据
 
 4.  **🪚 维修家具**
-    -   
+    -   待补充
     -   
     -   
 
 5.  **🎨 生活小技巧**
-    -   
+    -   待补充
     -   
 
 *(提示：您可以在这里添加一个更详细的目录树链接，指向您的 `SUMMARY.md` 或主要目录文件)*
