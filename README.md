@@ -92,12 +92,13 @@
 4.  推送到分支 (`git push origin feature/AmazingFix`)
 5.  打开一个 Pull Request
 
-
 ## 📜 许可证
 
-本项目采用 [知识共享 署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/) 进行许可。
+本项目采用双许可证：
+- **代码部分** (构建脚本、配置等) 基于 [MIT License](LICENSE) 许可。
+- **文档内容** (所有教程、文章、图片) 基于 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (LICENSE-content) 许可。
 
-简单理解：
+CC BY-NC-SA 4.0 协议简单理解：
 -   **可以**：共享、复制、重新发布本手册的任何内容。
 -   **请务必**：**署名**（注明原作者和链接）、**相同方式共享**（如果你的作品基于本手册）。
 -   **请勿**：将本手册内容用于**商业用途**。
@@ -122,9 +123,3 @@
 ---
 
 ⭐ 如果这个项目对你有帮助，请给我们一个 Star！你的支持是我们持续更新的最大动力！
-
-## 许可证
-
-本项目采用双许可证：
-- **代码部分** (构建脚本、配置等) 基于 [MIT License](LICENSE) 许可。
-- **文档内容** (所有教程、文章、图片) 基于 [CC BY-NC-SA 4.0](LICENSE-content) 许可。
