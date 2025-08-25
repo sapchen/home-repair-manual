@@ -1,0 +1,67 @@
+name: Deploy GitBook to GitHub Pages
+
+on:
+  # 触发条件：推送到 master 分支时触发
+  push:
+    branches: ["master"]
+  # 允许手动在 Actions 标签页触发工作流
+  workflow_dispatch:
+
+# 设置权限，允许写入 Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 允许一个并发部署
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 检出代码（获取您的源码）
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. 设置 Node.js 环境（GitBook 依赖 Node.js）
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # 推荐使用 18 或 20 等 LTS 版本
+          cache: 'npm' # 缓存 npm 依赖，加速后续构建
+
+      # 3. 安装 GitBook CLI
+      - name: Install GitBook
+        run: |
+          npm install -g gitbook-cli
+
+      # 4. 安装 GitBook 插件（根据您的 book.json 配置）
+      - name: Install plugins
+        run: |
+          gitbook install
+
+      # 5. 构建静态网站（生成 _book 目录）
+      - name: Build with GitBook
+        run: |
+          gitbook build
+
+      # 6. 设置 Pages（官方推荐动作）
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      # 7. 上传构建产物 (_book 目录) 作为 Pages 的素材
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './_book' # GitBook 构建的默认输出目录
+
+      # 8. 部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

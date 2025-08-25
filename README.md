@@ -8,6 +8,8 @@
 > 一本由社区驱动、持续更新的开源家庭维修知识库。旨在用清晰易懂的图文教程，帮助您轻松解决家中常见的各种小问题，节省开支，享受自己动手的乐趣！
 
 ** 在线访问**: [https://sapchen.github.io/](https://sapchen.github.io/)
+** 项目Github源地址** [https://github.com/sapchen/home-repair-manual/](https://github.com/sapchen/home-repair-manual/)
+** Github国内Gitee镜像地址** [https://gitee.com/bupt061837/home-repair-manual](https://gitee.com/bupt061837/home-repair-manual)（仅方便国内用户克隆下载，贡献请移至GitHub）
 
 ---
 ##  手册简介
@@ -50,6 +52,8 @@
 -   **补充内容**：有我们没覆盖到的维修技巧？
 -   **优化排版**：让教程更容易读懂？
 -   **翻译**：帮助翻译成其他语言？
+
+访问Github项目页面提交贡献：[https://github.com/sapchen/home-repair-manual/](https://github.com/sapchen/home-repair-manual/)
 
 ##  许可证
 
