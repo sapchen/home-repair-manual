@@ -34,7 +34,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20' # 推荐使用 18 或 20 等 LTS 版本
-          cache: 'npm' # 缓存 npm 依赖，加速后续构建
 
       # 3. 安装 GitBook CLI
       - name: Install GitBook
