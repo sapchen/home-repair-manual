@@ -7,7 +7,7 @@
 
 > 一本由社区驱动、持续更新的开源家庭维修知识库。旨在用清晰易懂的图文教程，帮助您轻松解决家中常见的各种小问题，节省开支，享受自己动手的乐趣！
 
-** 在线访问**: [https://sapchen.github.io/](https://sapchen.github.io/)
+** 在线访问**: [https://sapchen.github.io/home-repair-manual/](https://sapchen.github.io/home-repair-manual/)
 
 ** 项目Github源地址** [https://github.com/sapchen/home-repair-manual/](https://github.com/sapchen/home-repair-manual/)
 
