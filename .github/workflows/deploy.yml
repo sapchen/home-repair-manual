@@ -75,51 +75,51 @@ jobs:
         uses: actions/deploy-pages@v4
 
 
-# Job 2: 构建电子书并上传到Release (新增功能)
-build-ebooks:
-  # 这个Job需要在上一个Job之后运行，以便复用缓存
-  needs: deploy-pages
-  runs-on: ubuntu-latest
-  # 仅当是发布Release时才运行此Job，推送到分支时不运行
-  if: ${{ github.event_name == 'release' }}
+  # Job 2: 构建电子书并上传到Release (新增功能)
+  build-ebooks:
+    # 这个Job需要在上一个Job之后运行，以便复用缓存
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    # 仅当是发布Release时才运行此Job，推送到分支时不运行
+    if: ${{ github.event_name == 'release' }}
 
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Setup Node.js (for GitBook)
-      uses: actions/setup-node@v4
-      with:
-        node-version: '10.20'
+      - name: Setup Node.js (for GitBook)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '10.20'
 
-    - name: Install GitBook (Restore from Cache)
-      run: |
-        npm install -g gitbook-cli
-        gitbook install
-      env:
-        CI: true
+      - name: Install GitBook (Restore from Cache)
+        run: |
+          npm install -g gitbook-cli
+          gitbook install
+        env:
+          CI: true
 
-    - name: Build Ebooks
-      run: |
-        # 构建PDF版本
-        gitbook pdf ./ ./家庭维修手册.pdf
-        # 构建EPUB版本
-        gitbook epub ./ ./家庭维修手册.epub
-        # 构建Mobi版本 (可选)
-        # gitbook mobi ./ ./家庭维修手册.mobi
+      - name: Build Ebooks
+        run: |
+          # 构建PDF版本
+          gitbook pdf ./ ./家庭维修手册.pdf
+          # 构建EPUB版本
+          gitbook epub ./ ./家庭维修手册.epub
+          # 构建Mobi版本 (可选)
+          # gitbook mobi ./ ./家庭维修手册.mobi
 
-        # 列出生成的文件，确认成功
-        ls -la ./*.pdf ./*.epub ./*.mobi 2>/dev/null || true
+          # 列出生成的文件，确认成功
+          ls -la ./*.pdf ./*.epub ./*.mobi 2>/dev/null || true
 
-    - name: Upload Ebooks to Release
-      # 这是一个专门用于上传资源到Release的Action
-      uses: softprops/action-gh-release@v1
-      with:
-        # 将上面构建的所有电子书文件附加到当前触发工作流的Release中
-        files: |
-          家庭维修手册.pdf
-          家庭维修手册.epub
-          # 家庭维修手册.mobi
-      env:
-        # 授予GITHUB_TOKEN上传Release的权限
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload Ebooks to Release
+        # 这是一个专门用于上传资源到Release的Action
+        uses: softprops/action-gh-release@v1
+        with:
+          # 将上面构建的所有电子书文件附加到当前触发工作流的Release中
+          files: |
+            家庭维修手册.pdf
+            家庭维修手册.epub
+            # 家庭维修手册.mobi
+        env:
+          # 授予GITHUB_TOKEN上传Release的权限
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
