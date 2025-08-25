@@ -11,7 +11,7 @@
 
 ** 项目Github源地址** [https://github.com/sapchen/home-repair-manual/](https://github.com/sapchen/home-repair-manual/)
 
-** Github国内Gitee镜像地址** [https://gitee.com/bupt061837/home-repair-manual](https://gitee.com/bupt061837/home-repair-manual)（仅方便国内用户克隆下载，贡献请移至GitHub）
+** Github国内Gitee镜像地址** [https://gitee.com/bupt061837/home-repair-manual/releases/](hhttps://gitee.com/bupt061837/home-repair-manual/releases/)（仅方便国内用户克隆下载，贡献请移至GitHub）
 
 ---
 ##  手册简介
