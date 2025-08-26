@@ -26,5 +26,10 @@
       "bottom": 56
     }
   },
-  "cover": "cover.jpg"
+  "cover": "cover.jpg",
+  "scripts": {
+    "files": [
+      "./_inject/clarity.js"
+    ]
+  }
 }
