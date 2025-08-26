@@ -26,7 +26,7 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
-  background-color: var(--color-background);
+  background-color: var(--color-background-alt) !important;
   color: var(--color-text);
   line-height: 1.7;
   margin: 0;
@@ -35,12 +35,9 @@ body {
 
 /* ===== 2. 布局与容器 ===== */
 .book-body .page-inner {
-  max-width: var(--content-max-width);
-  margin: 0 auto;
-  background-color: var(--color-background-alt);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  border-radius: var(--border-radius) var(--border-radius) 0 0;
-  min-height: 80vh;
+  max-width: none !important;    /* 移除宽度限制 */
+  border-radius: 0 !important;   /* 移除圆角 */
+  box-shadow: none !important;   /* 移除阴影 */
 }
 
 /* ===== 3. 导航栏与目录 ===== */
