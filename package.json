@@ -10,7 +10,8 @@
     "mobi": "honkit mobi"
   },
   "devDependencies": {
-    "honkit": "^4.0.0"
+    "honkit": "^4.0.0",
+    "@honkit/theme-default": "^3.0.0"
   },
   "keywords": [
     "documentation",
