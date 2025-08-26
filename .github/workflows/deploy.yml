@@ -40,24 +40,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22' # 推荐使用 18 或 20 等 LTS 版本
+          cache: 'npm' # 添加缓存加速后续构建
 
       # 3. 安装 Honkit
-      - name: Install Honkit
-        run: |
-          npm install -g honkit
-
-      # 4. 安装 Honkit 插件（根据您的 book.json 配置）
-      - name: Install plugins
-        run: |
-          npm install
-        # 为下一个Job缓存Honkit安装
-        env:
-          CI: true
+      - name: Install dependencies
+        run: npm install
 
       # 5. 构建静态网站（生成 _book 目录）
       - name: Build with Honkit
-        run: |
-          honkit build
+        run: npx honkit build
 
       # 6. 设置 Pages（官方推荐动作）
       - name: Setup Pages
@@ -91,25 +82,22 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+          cache: 'npm'
 
-      - name: Install Honkit (Restore from Cache)
-        run: |
-          npm install -g honkit
-          npm install
-        env:
-          CI: true
+      - name: Install dependencies
+        run: npm install
 
       - name: Build Ebooks
         run: |
           # 构建PDF版本
-          honkit pdf ./ ./家庭维修手册.pdf
+          npx honkit pdf . 家庭维修手册.pdf
           # 构建EPUB版本
-          honkit epub ./ ./家庭维修手册.epub
+          npx honkit epub . 家庭维修手册.epub
           # 构建Mobi版本 (可选)
-          # honkit mobi ./ ./家庭维修手册.mobi
+          # npx honkit mobi . 家庭维修手册.mobi
 
           # 列出生成的文件，确认成功
-          ls -la ./*.pdf ./*.epub ./*.mobi 2>/dev/null || true
+          ls -la *.pdf *.epub *.mobi 2>/dev/null || true
 
       - name: Upload Ebooks to Release
         # 这是一个专门用于上传资源到Release的Action
