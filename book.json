@@ -10,8 +10,28 @@
     "mobi": "styles/mobi.css",
     "epub": "styles/epub.css"
   },
-  "plugins": [],
-  "pluginsConfig": {},
+  "plugins": [
+        "theme-default"
+    ],
+  "variables": {
+        "theme": "default", 
+        "theme-default": {
+            "body-background": "#fcfcfc" 
+        }
+  },
+  "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "linkedin": false,
+            "all": ["weibo", "facebook", "twitter"]
+        }
+  },
   "pdf": {
     "pageNumbers": true,
     "fontSize": 12,
