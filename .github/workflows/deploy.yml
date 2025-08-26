@@ -1,4 +1,4 @@
-name: Deploy GitBook to GitHub Pages
+name: Deploy Honkit to GitHub Pages
 
 on:
   # 触发条件：推送到 master 分支时触发
@@ -35,29 +35,29 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. 设置 Node.js 环境（GitBook 依赖 Node.js）
+      # 2. 设置 Node.js 环境（Honkit 依赖 Node.js）
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '10.20' # 推荐使用 18 或 20 等 LTS 版本
+          node-version: '22' # 推荐使用 18 或 20 等 LTS 版本
 
-      # 3. 安装 GitBook CLI
-      - name: Install GitBook
+      # 3. 安装 Honkit
+      - name: Install Honkit
         run: |
-          npm install -g gitbook-cli
+          npm install -g honkit
 
-      # 4. 安装 GitBook 插件（根据您的 book.json 配置）
+      # 4. 安装 Honkit 插件（根据您的 book.json 配置）
       - name: Install plugins
         run: |
-          gitbook install
-        # 为下一个Job缓存GitBook安装
+          honkit install
+        # 为下一个Job缓存Honkit安装
         env:
           CI: true
 
       # 5. 构建静态网站（生成 _book 目录）
-      - name: Build with GitBook
+      - name: Build with Honkit
         run: |
-          gitbook build
+          honkit build
 
       # 6. 设置 Pages（官方推荐动作）
       - name: Setup Pages
@@ -67,7 +67,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './_book' # GitBook 构建的默认输出目录
+          path: './_book' # Honkit 构建的默认输出目录
 
       # 8. 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
@@ -87,26 +87,26 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js (for GitBook)
+      - name: Setup Node.js (for Honkit)
         uses: actions/setup-node@v4
         with:
-          node-version: '10.20'
+          node-version: '22'
 
-      - name: Install GitBook (Restore from Cache)
+      - name: Install Honkit (Restore from Cache)
         run: |
-          npm install -g gitbook-cli
-          gitbook install
+          npm install -g honkit
+          honkit install
         env:
           CI: true
 
       - name: Build Ebooks
         run: |
           # 构建PDF版本
-          gitbook pdf ./ ./家庭维修手册.pdf
+          honkit pdf ./ ./家庭维修手册.pdf
           # 构建EPUB版本
-          gitbook epub ./ ./家庭维修手册.epub
+          honkit epub ./ ./家庭维修手册.epub
           # 构建Mobi版本 (可选)
-          # gitbook mobi ./ ./家庭维修手册.mobi
+          # honkit mobi ./ ./家庭维修手册.mobi
 
           # 列出生成的文件，确认成功
           ls -la ./*.pdf ./*.epub ./*.mobi 2>/dev/null || true
