@@ -95,7 +95,7 @@ jobs:
       - name: Install Honkit (Restore from Cache)
         run: |
           npm install -g honkit
-          honkit install
+          npm install
         env:
           CI: true
 
