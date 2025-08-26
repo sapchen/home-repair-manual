@@ -1,230 +1,31 @@
-/* styles/website.css */
-/* HonKit 网站样式美化 - 纯净无编号版 */
-
-/* ===== 1. 全局变量与重置 ===== */
-:root {
-  /* 配色方案 */
-  --color-primary: #3498db;     /* 主色调 */
-  --color-primary-dark: #2980b9;
-  --color-background: #f8f9fa;  /* 页面背景 */
-  --color-background-alt: #ffffff; /* 内容区域背景 */
-  --color-text: #2c3e50;        /* 正文文字颜色 */
-  --color-text-light: #7f8c8d;  /* 辅助文字颜色 */
-  --color-border: #e1e4e8;      /* 边框颜色 */
-  --color-code-bg: #f6f8fa;     /* 代码块背景 */
-  --color-code-border: #e1e4e8; /* 代码块边框 */
-
-  /* 尺寸与间距 */
-  --border-radius: 8px;
-  --content-max-width: 980px;
-  --transition-speed: 0.3s;
-}
-
-* {
-  box-sizing: border-box;
-}
-
+/* 更改字体 */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
-  background-color: var(--color-background);
-  color: var(--color-text);
-  line-height: 1.7;
-  margin: 0;
-  padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
-/* ===== 2. 布局与容器 ===== */
-.book-body .page-inner {
-  max-width: var(--content-max-width);
-  margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
-  background-color: var(--color-background-alt);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  border-radius: var(--border-radius) var(--border-radius) 0 0;
-  min-height: 80vh;
-}
-
-/* ===== 3. 导航栏与目录 - 移除所有编号 ===== */
+/* 给侧边栏添加背景色 */
 .book-summary {
-  background-color: #2c3e50;
-  color: #ecf0f1;
+    background-color: #2f4050;
+    color: #fff;
+}
+.book-summary a {
+    color: #fff;
 }
 
-/* 隐藏所有章节编号 */
-.book-summary ul.summary li a:before,
-.book-summary ul.summary li span:before {
-  content: "" !important;
-  display: none !important;
+/* 美化代码块 */
+pre, code {
+    border-radius: 5px;
 }
 
-.book-summary ul.summary li a,
-.book-summary ul.summary li span {
-  color: #ecf0f1;
-  padding: 10px 15px;
-  transition: all var(--transition-speed);
-  margin-left: 0 !important; /* 移除编号产生的缩进 */
+/* 为主内容区域增加最大宽度，避免在大屏幕上文字过长 */
+.book-body .page-inner {
+    max-width: 1000px;
 }
 
-.book-summary ul.summary li a:hover {
-  color: var(--color-primary);
-  background-color: rgba(255, 255, 255, 0.1);
+/* 自定义链接颜色 */
+a {
+    color: #3498db;
 }
-
-.book-summary ul.summary li.active > a {
-  color: var(--color-primary);
-  background-color: rgba(52, 152, 219, 0.2);
-}
-
-/* 调整不同层级目录项的缩进 */
-.book-summary ul.summary li li a,
-.book-summary ul.summary li li span {
-  padding-left: 30px !important;
-}
-
-.book-summary ul.summary li li li a,
-.book-summary ul.summary li li li span {
-  padding-left: 45px !important;
-}
-
-.book-summary ul.summary li li li li a,
-.book-summary ul.summary li li li li span {
-  padding-left: 60px !important;
-}
-
-/* ===== 4. 排版优化 ===== */
-.markdown-section h1,
-.markdown-section h2,
-.markdown-section h3,
-.markdown-section h4,
-.markdown-section h5,
-.markdown-section h6 {
-  color: var(--color-text);
-  font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  scroll-margin-top: 20px;
-}
-
-.markdown-section h1 {
-  border-bottom: 2px solid var(--color-border);
-  padding-bottom: 0.5rem;
-  margin-top: 0;
-}
-
-.markdown-section p {
-  margin-bottom: 1.2rem;
-}
-
-.markdown-section strong {
-  font-weight: 600;
-  color: var(--color-text);
-}
-
-.markdown-section em {
-  color: var(--color-primary-dark);
-}
-
-.markdown-section ul, 
-.markdown-section ol {
-  margin-bottom: 1.5rem;
-}
-
-.markdown-section li {
-  margin-bottom: 0.5rem;
-}
-
-/* ===== 5. 代码块 ===== */
-.markdown-section code {
-  background-color: var(--color-code-bg);
-  color: var(--color-text);
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-  font-size: 0.9em;
-  border: 1px solid var(--color-code-border);
-}
-
-.markdown-section pre {
-  background-color: var(--color-code-bg) !important;
-  border: 1px solid var(--color-code-border) !important;
-  border-radius: var(--border-radius) !important;
-  padding: 1.2rem !important;
-  margin: 1.5rem 0 !important;
-  overflow: auto;
-}
-
-.markdown-section pre code {
-  background: none !important;
-  border: none !important;
-  color: inherit !important;
-  padding: 0 !important;
-}
-
-/* ===== 6. 表格样式 ===== */
-.markdown-section table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1.5rem 0;
-}
-
-.markdown-section th {
-  background-color: var(--color-primary);
-  color: white;
-  font-weight: 600;
-  padding: 0.75rem;
-}
-
-.markdown-section td {
-  padding: 0.75rem;
-  border-bottom: 1px solid var(--color-border);
-}
-
-.markdown-section tr:nth-child(even) {
-  background-color: rgba(0, 0, 0, 0.02);
-}
-
-/* ===== 7. 链接样式 ===== */
-.markdown-section a {
-  color: var(--color-primary);
-  text-decoration: none;
-  transition: color var(--transition-speed);
-}
-
-.markdown-section a:hover {
-  color: var(--color-primary-dark);
-  text-decoration: underline;
-}
-
-/* ===== 8. 引用块 ===== */
-.markdown-section blockquote {
-  border-left: 4px solid var(--color-primary);
-  background-color: rgba(52, 152, 219, 0.05);
-  color: #5a6c7f;
-  margin: 1.5rem 0;
-  padding: 1rem 1.5rem;
-  border-radius: 0 var(--border-radius) var(--border-radius) 0;
-}
-
-/* ===== 9. 响应式设计 ===== */
-@media (max-width: 1240px) {
-  .book-body .page-inner {
-    margin: 0 1rem;
-    padding: 1.5rem 1rem 3rem;
-  }
-}
-
-@media (max-width: 600px) {
-  :root {
-    --content-max-width: 100%;
-  }
-  
-  .book-body .page-inner {
-    margin: 0;
-    border-radius: 0;
-    padding: 1rem 0.5rem 2rem;
-  }
-  
-  .markdown-section pre {
-    padding: 0.8rem !important;
-    font-size: 0.9em;
-  }
+a:hover {
+    color: #2980b9;
 }
