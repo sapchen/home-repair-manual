@@ -1,0 +1,26 @@
+/* 更改字体 */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* 给侧边栏添加背景色 */
+.book-summary {
+    background-color: #2f4050;
+    color: #fff;
+}
+.book-summary a {
+    color: #fff;
+}
+
+/* 美化代码块 */
+pre, code {
+    border-radius: 5px;
+}
+
+/* 自定义链接颜色 */
+a {
+    color: #3498db;
+}
+a:hover {
+    color: #2980b9;
+}

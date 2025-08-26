@@ -20,9 +20,6 @@
         }
   },
   "pluginsConfig": {
-        "theme-default": {
-            "showLevel": true
-        },
         "sharing": {
             "weibo": true,
             "facebook": true,
