@@ -40,7 +40,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22' # 推荐使用 18 或 20 等 LTS 版本
-          cache: 'npm' # 添加缓存加速后续构建
 
       # 3. 安装 Honkit
       - name: Install dependencies
@@ -82,7 +81,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
 
       - name: Install dependencies
         run: npm install
