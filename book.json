@@ -29,7 +29,7 @@
   "cover": "cover.jpg",
   "scripts": {
     "files": [
-      "./_inject/clarity.js"
+      "_inject/clarity.js"
     ]
   }
 }
