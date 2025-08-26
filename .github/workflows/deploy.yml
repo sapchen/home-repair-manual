@@ -49,7 +49,7 @@ jobs:
       # 4. 安装 Honkit 插件（根据您的 book.json 配置）
       - name: Install plugins
         run: |
-          honkit install
+          npm install
         # 为下一个Job缓存Honkit安装
         env:
           CI: true
