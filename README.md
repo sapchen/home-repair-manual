@@ -1,5 +1,5 @@
 ## 最新动态
-本项目意外受到同学们的热烈关注，非常感谢大家的支持！我又添加了一些母校的图片进来，整个书变得更有人情味了。我正在尽力维护和更新，但无法保证能立即回复所有问题。如果您发现错误或有建议，欢迎[提交Issue](https://github.com/sapchen/home-repair-manual/issues)或PR，也可以在讨论区进行讨论[讨论](https://github.com/sapchen/home-repair-manual/discussions)。
+本项目意外受到同学们的热烈关注，非常感谢大家的支持！我又添加了一些母校的图片进来，整本书变得更有人情味了。我正在尽力维护和更新，但无法保证能立即回复所有问题。如果您发现错误或有建议，欢迎[提交Issue](https://github.com/sapchen/home-repair-manual/issues)或PR，也可以在讨论区进行讨论[讨论](https://github.com/sapchen/home-repair-manual/discussions)。
 
 #  家庭维修手册 | Home Repair Manual
 
@@ -70,3 +70,6 @@ CC BY-NC-SA 4.0 协议简单理解：
 -   **可以**：共享、复制、重新发布本手册的任何内容。
 -   **请务必**：**署名**（注明原作者和链接）、**相同方式共享**（如果你的作品基于本手册）。
 -   **请勿**：将本手册内容用于**商业用途**。
+
+## 章节封面图
+所有章节封面图皆来源于：北京邮电大学官方网站“校园风光”栏目。
