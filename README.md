@@ -6,10 +6,19 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)  
-> 一本由社区驱动、持续更新的开源家庭维修知识库。
-> 
-> 旨在用清晰易懂的图文教程，帮助您轻松解决家中常见的各种小问题，节省开支，享受自己动手的乐趣！
 
+## 内容简介
+你是否曾为家中水管漏水、电灯不亮、门窗异响而头疼？叫师傅上门不仅费用高，而且可能要等很久。
+
+这本《家庭维修手册》就是为了解决这些问题而生的！它包含了：
+
+**step-by-step 图文教程**：从工具准备到遇到问题、解决问题、复盘反思，一步步带你操作。
+
+**覆盖常见问题**：涵盖**机械**、**电工**、**木工**、**电子**、**家电**等多个类别。
+
+**开源与免费**：完全免费，并由社区共同维护，内容不断进化。
+
+## 仓库
 **在线访问：** [https://sapchen.github.io/home-repair-manual/](https://sapchen.github.io/home-repair-manual/)
 
 **项目Github源地址：** [https://github.com/sapchen/home-repair-manual/](https://github.com/sapchen/home-repair-manual/)
@@ -26,17 +35,6 @@
 **部署本地http服务：**  honkit serve
 
 **生成本地epub文件：**  honkit epub ./ ./家庭维修手册.epub
-
-## 手册简介
-你是否曾为家中水管漏水、电灯不亮、门窗异响而头疼？叫师傅上门不仅费用高，而且可能要等很久。
-
-这本《家庭维修手册》就是为了解决这些问题而生的！它包含了：
-
-**step-by-step 图文教程**：从工具准备到完成验收，一步步带你操作。
-
-**覆盖常见问题**：涵盖**机械**、**电工**、**木工**、**电子**、**家电**等多个类别。
-
-**开源与免费**：完全免费，并由社区共同维护，内容不断进化。
 
 ## 许可证
 本项目采用双许可证：
