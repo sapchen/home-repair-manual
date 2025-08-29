@@ -6,8 +6,6 @@
   "styles": {
     "website": "styles/website.css",
     "ebook": "styles/ebook.css",
-    "pdf": "styles/pdf.css",
-    "mobi": "styles/mobi.css",
     "epub": "styles/epub.css"
   },
   "plugins": [
@@ -18,33 +16,6 @@
         "theme-default": {
             "body-background": "#fcfcfc" 
         }
-  },
-  "pluginsConfig": {
-        "sharing": {
-            "weibo": true,
-            "facebook": true,
-            "twitter": true,
-            "google": false,
-            "linkedin": false,
-            "all": ["weibo", "facebook", "twitter"]
-        }
-  },
-  "pdf": {
-    "pageNumbers": true,
-    "fontSize": 12,
-    "fontFamily": "Arial",
-    "paperSize": "a4",
-    "chapterMark": "pagebreak",
-    "pageBreaksBefore": "//*[contains(@class, 'page-break')]",
-    "margin": {
-      "right": 62,
-      "left": 62,
-      "top": 56,
-      "bottom": 56
-    },
-    "pdf.imageCompression": "jpeg",
-    "pdf.jpegOptimization": true,
-    "pdf.linearize": true
   },
   "cover": "./images/covers/cover.jpg"
 }
