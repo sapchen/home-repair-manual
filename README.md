@@ -1,5 +1,5 @@
 ## 最新动态
-本项目意外受到同学们的热烈关注，非常感谢大家的支持！我又添加了一些母校的图片进来，整本书变得更有人情味了。我正在尽力维护和更新，但无法保证能立即回复所有问题。如果您发现错误或有建议，欢迎[提交Issue](https://github.com/sapchen/home-repair-manual/issues)或PR，也可以在讨论区进行[讨论](https://github.com/sapchen/home-repair-manual/discussions)。
+本项目意外受到同学们的热烈关注，非常感谢大家的支持。我又添加了一些母校的风景照进来，整本书变得更有人情味了。如果您发现错误或有建议，欢迎[提交Issue](https://github.com/sapchen/home-repair-manual/issues)或[PR](https://github.com/sapchen/home-repair-manual/pulls)，也可以在讨论区进行[讨论](https://github.com/sapchen/home-repair-manual/discussions)。
 
 #  家庭维修手册 | Home Repair Manual  
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen?logo=github)](https://sapchen.github.io/)
@@ -8,13 +8,13 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)  
 
 ## 内容简介
-你是否曾为家中水管漏水、电灯不亮、门窗异响而头疼？叫师傅上门不仅费用高，而且可能要等很久。
+你是否曾为家中水管漏水发臭、电灯不亮、门窗异响而头疼？叫师傅上门不仅费用高，而且可能要等很久。
 
 这本《家庭维修手册》就是为了解决这些问题而生的！它包含了：
 
 **step-by-step 图文教程**：从工具准备到遇到问题、解决问题、复盘反思，一步步带你操作。
 
-**覆盖常见问题**：涵盖**机械**、**电工**、**木工**、**电子**、**家电**等多个类别。
+**覆盖常见问题**：涵盖**机械**、**家电**、**电工**、**电子**、**木工**等多个类别。
 
 **开源与免费**：完全免费，并由社区共同维护，内容不断进化。
 
@@ -23,7 +23,7 @@
 
 **项目Github源地址：** [https://github.com/sapchen/home-repair-manual/](https://github.com/sapchen/home-repair-manual/)
 
-**Github国内Gitee镜像地址：** [https://gitee.com/bupt061837/home-repair-manual/releases/](hhttps://gitee.com/bupt061837/home-repair-manual/releases/)  （仅方便国内用户克隆下载，贡献请移至GitHub）
+**Github国内Gitee镜像地址：** [https://gitee.com/bupt061837/home-repair-manual/releases/](hhttps://gitee.com/bupt061837/home-repair-manual/releases/)
 
 ## 本地Build
 **克隆仓库：**  git clone https://github.com/sapchen/home-repair-manual.git
@@ -51,5 +51,5 @@
 
 >**请勿**：将本手册内容用于**商业用途**。
 
-### 章节封面图来源声明
-所有章节封面图皆来源于：[北京邮电大学官方网站校园风光](http://www.bupt.edu.cn/bygk/zjby/xyfg.htm)栏目。
+### 封面图来源声明
+所有章节封面图皆来源于：北京邮电大学官方网站[校园风光](http://www.bupt.edu.cn/bygk/zjby/xyfg.htm)栏目。
