@@ -16,14 +16,12 @@
 
 **覆盖常见问题**：涵盖**机械**、**家电**、**电工**、**电子**、**木工**等多个类别。
 
-**开源与免费**：完全免费，并由社区共同维护，内容不断进化。
-
 ## 仓库
 **在线访问：** [https://sapchen.github.io/home-repair-manual/](https://sapchen.github.io/home-repair-manual/)
 
 **项目Github源地址：** [https://github.com/sapchen/home-repair-manual/](https://github.com/sapchen/home-repair-manual/)
 
-**Github国内Gitee镜像地址：** [https://gitee.com/bupt061837/home-repair-manual/releases/](hhttps://gitee.com/bupt061837/home-repair-manual/releases/)
+**Github国内Gitee镜像地址：** [https://gitee.com/bupt061837/home-repair-manual/releases/](https://gitee.com/bupt061837/home-repair-manual/releases/)
 
 ## 本地Build
 **克隆仓库：**  git clone https://github.com/sapchen/home-repair-manual.git
