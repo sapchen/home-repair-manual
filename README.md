@@ -1,5 +1,7 @@
 ## 最新动态
-本项目意外受到同学们的热烈关注，非常感谢大家的支持。我又添加了一些母校的风景照进来，整本书变得更有人情味了。如果您发现错误或有建议，欢迎[提交Issue](https://github.com/sapchen/home-repair-manual/issues)或[PR](https://github.com/sapchen/home-repair-manual/pulls)，也可以在讨论区进行[讨论](https://github.com/sapchen/home-repair-manual/discussions)。
+新增5-09-扩充电动晾衣架空间、5-10-自制厕所提示牌。
+
+本项目意外受到同学们的热烈关注，非常感谢大家的支持。如果您发现错误或有建议，欢迎[提交Issue](https://github.com/sapchen/home-repair-manual/issues)或[PR](https://github.com/sapchen/home-repair-manual/pulls)，也可以在讨论区进行[讨论](https://github.com/sapchen/home-repair-manual/discussions)。
 
 #  家庭维修手册 | Home Repair Manual  
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen?logo=github)](https://sapchen.github.io/)
