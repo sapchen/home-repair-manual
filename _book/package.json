@@ -1,0 +1,23 @@
+{
+  "name": "home-repair-manual",
+  "version": "1.0.0",
+  "description": "Home repair manual documentation",
+  "scripts": {
+    "build": "honkit build",
+    "serve": "honkit serve",
+    "pdf": "honkit pdf",
+    "epub": "honkit epub",
+    "mobi": "honkit mobi"
+  },
+  "devDependencies": {
+    "honkit": "^4.0.0"
+  },
+  "keywords": [
+    "documentation",
+    "honkit",
+    "gitbook"
+  ],
+  "author": "_061837@bupt",
+  "license": "MIT",
+  "license-content": "CC BY-NC-SA 4.0"
+}
