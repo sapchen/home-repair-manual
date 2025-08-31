@@ -238,7 +238,7 @@ body {
 /* 当屏幕宽度小于等于768像素时，应用这里的样式 */
 @media (max-width: 768px) {
     .markdown-section img {
-        max-width: 100% !important; /* 手机上看图片宽度为100% */
+        max-width: 90% !important; /* 手机上看图片宽度为100% */
         margin: 0.5rem auto; /* 可以调整一下边距 */
     }
 }
