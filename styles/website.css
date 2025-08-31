@@ -232,3 +232,13 @@ body {
     margin: 0.2rem !important; /* 减小边距，只留一点点缝隙 */
     height: auto !important; /* 保持高度自适应 */
 }
+
+/* 自适应相应 */
+/* 媒体查询：针对小屏幕（手机） */
+/* 当屏幕宽度小于等于768像素时，应用这里的样式 */
+@media (max-width: 768px) {
+    .markdown-section img {
+        max-width: 100% !important; /* 手机上看图片宽度为100% */
+        margin: 0.5rem auto; /* 可以调整一下边距 */
+    }
+}
