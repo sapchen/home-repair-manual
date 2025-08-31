@@ -3,11 +3,11 @@
 
 本项目意外受到同学们的热烈关注，非常感谢大家的支持。如果您发现错误或有建议，欢迎[提交Issue](https://github.com/sapchen/home-repair-manual/issues)或[PR](https://github.com/sapchen/home-repair-manual/pulls)，也可以在讨论区进行[讨论](https://github.com/sapchen/home-repair-manual/discussions)。
 
-#  家庭维修手册 | Home Repair Manual  
+#  家庭维修手册 | Home Repair Manual 
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen?logo=github)](https://sapchen.github.io/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)  
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 
 ## 内容简介
 你是否曾为家中水管漏水发臭、电灯不亮、门窗异响而头疼？叫师傅上门不仅费用高，而且可能要等很久。

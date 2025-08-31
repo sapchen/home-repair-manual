@@ -1,0 +1,115 @@
+/* styles/epub.css */
+/* EPUB 样式重置与基础美化 */
+
+/* 1. 基础页面重置 */
+body {
+    font-family: serif !important; /* 使用阅读器的默认衬线字体，兼容性最好 */
+    margin: 0 !important;
+    padding: 5% !important;
+    line-height: 1.5em !important;
+    color: #000000 !important; /* 确保黑色文字，在某些主题下可能被覆盖 */
+    background-color: #ffffff !important; /* 确保白色背景 */
+    text-align: left !important;
+    widows: 2; /* 避免页尾出现单行段落（孤儿行） */
+    orphans: 2; /* 避免页首出现单行段落（寡妇行） */
+}
+
+/* 2. 标题样式 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif !important;
+    font-weight: bold;
+    page-break-after: avoid; /* 避免在标题后分页 */
+    margin-top: 1.5em !important;
+    margin-bottom: 0.5em !important;
+}
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+
+/* 3. 文本与段落 */
+p {
+    margin: 0 0 1em 0 !important; /* 统一的段落间距 */
+    text-align: justify !important; /* 两端对齐，看起来更整洁 */
+}
+
+/* 4. 链接 */
+a {
+    color: #0000EE !important; /* 传统链接蓝色 */
+    text-decoration: underline !important;
+}
+a:visited {
+    color: #551A8B !important; /* 传统访问后紫色 */
+}
+
+/* 5. 代码块 - 这是美化重点 */
+pre, code {
+    font-family: monospace !important;
+    background-color: #f5f5f5 !important;
+    border: 1px solid #ddd !important;
+    border-radius: 3px !important; /* 简单圆角，部分阅读器支持 */
+}
+
+pre {
+    display: block;
+    padding: 1em !important;
+    margin: 1em 0 !important;
+    overflow: auto;
+    page-break-inside: avoid; /* 避免代码块中间被分页 */
+}
+
+code {
+    padding: 0.1em 0.3em !important;
+    display: inline;
+}
+
+/* 6. 列表 */
+ul, ol {
+    margin-bottom: 1em;
+}
+li {
+    margin: 0.25em 0;
+}
+
+/* 7. 块引用 */
+blockquote {
+    font-style: italic;
+    margin: 1em 2em !important;
+    padding-left: 1em;
+    border-left: 3px solid #ccc;
+    color: #555;
+}
+
+/* 8. 表格 - 保持极其简单 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+    page-break-inside: avoid;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+}
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+/* 9. 图片 */
+img {
+    max-width: 95% !important; /* 防止图片溢出屏幕 */
+    height: auto;
+    display: block;
+    margin: 1em auto;
+    page-break-inside: avoid;
+}
+
+/* 10. 分页控制 - 非常重要！ */
+/* 避免在段落、标题、图片中间分页 */
+h1, h2, h3, h4, h5, h6, img, pre {
+    page-break-inside: avoid;
+}
+/* 确保章节从新页开始 */
+h1 {
+    page-break-before: always;
+}
