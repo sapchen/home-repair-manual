@@ -1,0 +1,10 @@
+# 告诉 GitHub Pages 不要使用 Jekyll 构建（因为你的项目是纯静态的 Honkit 项目）
+include: ["_book/**/*"]
+exclude: [""]
+
+# 最关键的部分：为特定文件类型设置 MIME 类型
+mime_types:
+  .mp4: video/mp4
+  .webm: video/webm
+  .ogg: video/ogg
+  .mov: video/quicktime
