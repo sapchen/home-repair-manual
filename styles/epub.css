@@ -55,3 +55,34 @@ code {
 h1, h2, h3, img, pre {
     page-break-inside: avoid;
 }
+
+/* ===== 移动端适配 ===== */
+@media (max-width: 768px) {
+    body {
+        margin: 0.5em; /* 减少边距 */
+        font-size: 16px; /* 确保基础字体大小 */
+        line-height: 1.8; /* 移动端行高稍大 */
+        text-align: left; /* 取消两端对齐，更适合移动阅读 */
+    }
+    
+    img {
+        max-width: 100% !important; /* 图片全宽显示 */
+        height: auto;
+        margin: 1em 0; /* 简化边距 */
+    }
+    
+    pre {
+        overflow-x: auto; /* 允许代码块横向滚动 */
+        font-size: 14px; /* 代码字体稍小 */
+    }
+    
+    h1, h2, h3 {
+        page-break-after: avoid;
+        margin: 1em 0 0.5em 0;
+    }
+    
+    p {
+        margin: 0 0 1em 0;
+        text-align: left; /* 取消两端对齐 */
+    }
+}
