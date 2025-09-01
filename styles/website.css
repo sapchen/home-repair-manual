@@ -44,7 +44,7 @@
 /* ===== 移动端适配 ===== */
 @media (max-width: 768px) {
     .markdown-section img {
-        max-width: 90vw !important; /* 移动端也保持100vw */
+        max-width: 85vw !important; /* 移动端也保持100vw */
         margin: 1.5rem calc(-2.5vw); /* 减少负边距，避免过度溢出 */
     }
     
