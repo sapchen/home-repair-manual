@@ -3,28 +3,28 @@
 
 于是我就买了飞毛腿电池（本来想买品胜的，DeepSeek推荐品胜，但是飞毛腿是本地品牌，还是更喜欢飞毛腿一些，而且以前还曾经给小米做过代工）：
 
-![新电池](../images/2-维修电子设备/06-更换iPhone%20XSmax电池/新电池.webp)
-![飞毛腿](../images/2-维修电子设备/06-更换iPhone%20XSmax电池/飞毛腿.webp)
+![新电池](/images/2-维修电子设备/06-更换iPhone%20XSmax电池/新电池.webp)
+![飞毛腿](/images/2-维修电子设备/06-更换iPhone%20XSmax电池/飞毛腿.webp)
 
 开始拆：
 
-![拆](../images/2-维修电子设备/06-更换iPhone%20XSmax电池/拆.webp)
-![拆1](../images/2-维修电子设备/06-更换iPhone%20XSmax电池/拆1.webp)
+![拆](/images/2-维修电子设备/06-更换iPhone%20XSmax电池/拆.webp)
+![拆1](/images/2-维修电子设备/06-更换iPhone%20XSmax电池/拆1.webp)
 
 每次拆电池都是心惊胆战，生怕电池爆炸，下面的胶带都老化了，根本拔不出来，上次帮朋友换电池，我没有常识把电池都给翘冒烟了。这次多谢老同学龚匡给的建议，先把电池的电量放光，就不会爆炸起火了，然后拆电池就不会紧张了：
 
-![拆2](../images/2-维修电子设备/06-更换iPhone%20XSmax电池/拆2.webp)
-![拆3](../images/2-维修电子设备/06-更换iPhone%20XSmax电池/拆3.webp)
+![拆2](/images/2-维修电子设备/06-更换iPhone%20XSmax电池/拆2.webp)
+![拆3](/images/2-维修电子设备/06-更换iPhone%20XSmax电池/拆3.webp)
 
 好，开始安装新电池：
 
-![安装](../images/2-维修电子设备/06-更换iPhone%20XSmax电池/安装.jpg)
+![安装](/images/2-维修电子设备/06-更换iPhone%20XSmax电池/安装.jpg)
 
 继续装机：
 
-![安装1](../images/2-维修电子设备/06-更换iPhone%20XSmax电池/安装1.jpg)
+![安装1](/images/2-维修电子设备/06-更换iPhone%20XSmax电池/安装1.jpg)
 
 完工，收工：
 
-![完工](../images/2-维修电子设备/06-更换iPhone%20XSmax电池/完工.webp)
-![完工1](../images/2-维修电子设备/06-更换iPhone%20XSmax电池/完工1.webp)
+![完工](/images/2-维修电子设备/06-更换iPhone%20XSmax电池/完工.webp)
+![完工1](/images/2-维修电子设备/06-更换iPhone%20XSmax电池/完工1.webp)
