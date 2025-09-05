@@ -51,4 +51,26 @@
     .markdown-section p {
         max-width: 90% !important; /* 移动端文本可以宽一些 */
     }
+
+    .video-container iframe {
+        width: 95%;
+        height: 350px;
+    }
+}
+
+/* 视频容器样式 */
+.video-container {
+    text-align: center;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+/* 视频本身样式 */
+.video-container iframe {
+    width: 85%;
+    height: 450px;
+    max-width: 850px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
