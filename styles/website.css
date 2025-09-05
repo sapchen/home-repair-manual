@@ -67,7 +67,9 @@
 
 /* 视频本身样式 */
 .video-container iframe {
-    width: 85%;
+    text-align: center;
+    width: 60%;
+    height: 450px;
     border: none;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
