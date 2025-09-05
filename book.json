@@ -9,7 +9,7 @@
     "epub": "styles/epub.css"
   },
   "plugins": [
-        "theme-default",
+        "theme-default"
     ],
   "variables": {
         "theme": "default", 
