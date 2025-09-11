@@ -52,24 +52,50 @@
         max-width: 90% !important; /* 移动端文本可以宽一些 */
     }
 
-    .video-container iframe {
+    /* 横屏在移动端 */
+    .video-landscape iframe {
         width: 95%;
-        height: 350px;
+        height: 250px;
+        max-width: none;
+    }
+    
+    /* 竖屏在移动端 */
+    .video-portrait iframe {
+        width: 75%;
+        height: 600px;
+        max-width: 300px;
     }
 }
 
-/* 视频容器样式 */
-.video-container {
+/* ===== 横屏视频样式（16:9比例）===== */
+.video-landscape {
     text-align: center;
     margin: 2rem 0;
-    width: 90%;
+    width: 100%;
 }
 
-/* 视频本身样式 */
-.video-container iframe {
+.video-landscape iframe {
+    width: 85%;
+    height: 478px; /* 16:9比例的高度 */
+    max-width: 850px;
+    aspect-ratio: 16/9; /* 保持比例 */
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== 竖屏视频样式（9:16比例）===== */
+.video-portrait {
     text-align: center;
-    width: 60%;
-    height: 450px;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.video-portrait iframe {
+    width: 45%; /* 竖屏宽度较小 */
+    height: 800px; /* 竖屏高度较大 */
+    max-width: 400px; /* 限制最大宽度 */
+    aspect-ratio: 9/16; /* 保持竖屏比例 */
     border: none;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
