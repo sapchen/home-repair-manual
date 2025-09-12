@@ -1,5 +1,5 @@
 ## 最新动态
-新增[0-维修自行车-26-更换（加长）单车把横](/0-维修自行车/26-更换（加长）单车把横.md)、[5-生活小技巧-09-扩充电动晾衣架空间](/5-生活小技巧/09-扩充电动晾衣架空间.md)、[5-生活小技巧-10-自制厕所提示牌](/5-生活小技巧/10-自制厕所提示牌.md)。
+新增[0-维修自行车-27-安装护链贴](/0-维修自行车/27-安装护链贴.md)、[0-维修自行车-26-更换（加长）单车把横](/0-维修自行车/26-更换（加长）单车把横.md)。
 
 本项目意外受到同学们的热烈关注，非常感谢大家的支持。如果您发现错误或有建议，欢迎[提交Issue](https://github.com/sapchen/home-repair-manual/issues)或[PR](https://github.com/sapchen/home-repair-manual/pulls)，也可以在讨论区进行[讨论](https://github.com/sapchen/home-repair-manual/discussions)。
 
