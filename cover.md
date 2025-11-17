@@ -8,7 +8,7 @@
   
   <!-- Logo容器 -->
   <div style="margin: 15px 0;">
-    <img src="./images/logo/logo.png" alt="个人品牌Logo" 
+    <img src="./images/logo/logo.png" class="brand-logo" alt="个人品牌Logo" 
          width="50" class="logo" style="opacity: 0.85;">
   </div>
   
