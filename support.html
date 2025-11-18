@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赞助方式</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.1em;
+        }
+        
+        .payment-methods {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .payment-method {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .payment-method:hover {
+            transform: translateY(-5px);
+        }
+        
+        .payment-method h3 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        .qr-code {
+            width: 180px;
+            height: 180px;
+            border: 1px solid #eaeaea;
+            border-radius: 5px;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f8f9fa;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+        
+        .warning {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            color: #856404;
+        }
+        
+        .warning h2 {
+            color: #e74c3c;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .warning-icon {
+            font-size: 1.5em;
+        }
+        
+        .warning ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        .warning li {
+            margin-bottom: 8px;
+        }
+        
+        .verify-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .verify-link:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            .payment-methods {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .payment-method {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>赞助方式</h1>
+        <p class="subtitle">感谢您考虑支持本项目</p>
+    </header>
+    
+    <section class="payment-methods">
+        <div class="payment-method">
+            <h3>微信</h3>
+            <div class="qr-code">
+                <!-- 在实际使用中，请替换为您的微信支付码图片 -->
+                微信支付码
+            </div>
+            <p>请使用微信扫描二维码</p>
+        </div>
+        
+        <div class="payment-method">
+            <h3>支付宝</h3>
+            <div class="qr-code">
+                <!-- 在实际使用中，请替换为您的支付宝支付码图片 -->
+                支付宝二维码
+            </div>
+            <p>请使用支付宝扫描二维码</p>
+        </div>
+    </section>
+    
+    <section class="warning">
+        <h2>
+            <span class="warning-icon">⚠️</span>
+            安全提醒 (必读)
+        </h2>
+        <ul>
+            <li>这是本项目的 <strong>唯一官方赞助渠道</strong>。</li>
+            <li>请务必通过本项目 <strong>GitHub主页</strong> 的链接访问此页面。</li>
+            <li><strong>切勿相信</strong> 任何其他渠道发布的收款码。</li>
+            <li>如果对真实性存疑，欢迎通过 <a href="../../issues" class="verify-link">Issues</a> 与我核实。</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>感谢您的支持！</p>
+    </footer>
+</body>
+</html>
