@@ -1,5 +1,3 @@
-本项目意外地受到了同学们的热烈关注，非常感谢大家的支持。如果您发现错误或有建议，欢迎[提交Issue](https://github.com/sapchen/home-repair-manual/issues)或[PR](https://github.com/sapchen/home-repair-manual/pulls)，也可以在讨论区进行[讨论](https://github.com/sapchen/home-repair-manual/discussions)。
-
 #  家庭维修手册（Home Repair Manual）
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen?logo=github)](https://sapchen.github.io/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
@@ -50,3 +48,9 @@ CC BY-NC-SA 4.0 协议可简单理解为：
 
 ### 封面图来源声明
 所有章节封面图皆来源于：北京邮电大学官方网站[校园风光](http://www.bupt.edu.cn/bygk/zjby/xyfg.htm)栏目。
+
+### 请我喝一杯咖啡
+
+| 微信 | 支付宝 |
+| :---: | :---: |
+| <img src="./images/sponsor/微信支付码.png" width="100" alt="微信赞赏二维码"/> | <img src="./images/sponsor/支付宝支付码.jpg" width="100" alt="支付宝二维码"/> |
