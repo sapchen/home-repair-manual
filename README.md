@@ -49,8 +49,4 @@ CC BY-NC-SA 4.0 协议可简单理解为：
 ### 封面图来源声明
 所有章节封面图皆来源于：北京邮电大学官方网站[校园风光](http://www.bupt.edu.cn/bygk/zjby/xyfg.htm)栏目。
 
-### 请我喝一杯咖啡
-
-| 微信 | 支付宝 |
-| :---: | :---: |
-| <img src="./images/sponsor/微信支付码.png" width="100" alt="微信赞赏二维码"/> | <img src="./images/sponsor/支付宝支付码.jpg" width="100" alt="支付宝二维码"/> |
+[请我喝一杯咖啡](/support.md)
