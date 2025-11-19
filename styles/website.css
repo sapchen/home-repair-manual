@@ -59,6 +59,16 @@
         max-width: 90% !important; /* 移动端文本可以宽一些 */
     }
 
+    .payment-methods { 
+        flex-direction: column; 
+        gap: 50px; /* 增加间距 */
+        margin-bottom: 100px; /* 调整底部边距 */
+    }
+    
+    .payment-method {
+        padding: 10px; /* 减少内边距 */
+    }
+
     /* 横屏在移动端 */
     .video-landscape iframe {
         width: 95%;
