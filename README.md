@@ -49,4 +49,4 @@ CC BY-NC-SA 4.0 协议可简单理解为：
 ### 封面图来源声明
 所有章节封面图皆来源于：北京邮电大学官方网站[校园风光](http://www.bupt.edu.cn/bygk/zjby/xyfg.htm)栏目。
 
-[请我喝一杯咖啡](/Buy Me A Coffee.html)
+[请我喝一杯咖啡](https://sapchen.github.io/home-repair-manual/buy-me-a-coffee.html)

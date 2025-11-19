@@ -62,9 +62,9 @@
     .payment-methods { 
         flex-direction: column; 
         gap: 50px; /* 增加间距 */
-        margin-bottom: 100px; /* 调整底部边距 */
+        margin-bottom: 300px; /* 调整底部边距 */
     }
-    
+
     .payment-method {
         padding: 10px; /* 减少内边距 */
     }
