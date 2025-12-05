@@ -1,0 +1,109 @@
+/* styles/website.css */
+/* HonKit 网站样式美化 - 纯净版 */
+
+/* ===== 基础设置 ===== */
+.markdown-section {
+    max-width: 95% !important;
+    margin: 0 auto !important;
+}
+
+/* ===== 文本段落 ===== */
+.markdown-section p {
+    max-width: 75ch !important;
+    margin: 1rem auto !important;
+    line-height: 1.6;
+}
+
+/* ===== 内容图片 ===== */
+.markdown-section img {
+    max-width: 90% !important; /* 改用百分比，更稳定 */
+    width: auto !important;
+    height: auto !important;
+    display: block;
+    margin: 1.5rem auto; /* 使用标准的auto居中，移除负边距 */
+}
+
+/* ===== Logo特殊样式 ===== */
+.markdown-section img.brand-logo {
+    max-width: 60px !important; /* 固定最大宽度 */
+    width: 48px !important;     /* 固定宽度 */
+    margin: 0.5rem auto !important; /* 调整边距 */
+}
+
+/* ===== 徽章图片（不移除） ===== */
+.markdown-section a > img[src*="shields.io"] {
+    max-width: none !important;
+    display: inline !important;
+    margin: 0.2rem !important;
+}
+
+/* ===== 标题缩进 ===== */
+.markdown-section h2 {
+    padding-left: 1.5rem !important;
+    border-left: 4px solid #eaecef !important;
+}
+
+.markdown-section h3 {
+    padding-left: 3rem !important;
+    border-left: 3px solid #eaecef !important;
+}
+
+/* ===== 移动端适配 ===== */
+@media (max-width: 768px) {
+    .markdown-section img {
+        max-width: 95% !important; /* 移动端图片稍宽 */
+        margin: 1.5rem auto; /* 保持标准居中 */
+    }
+    
+    .markdown-section p {
+        max-width: 90% !important; /* 移动端文本可以宽一些 */
+    }
+
+    /* 横屏在移动端 */
+    .video-landscape iframe {
+        width: 95%;
+        height: 250px;
+        max-width: none;
+    }
+    
+    /* 竖屏在移动端 */
+    .video-portrait iframe {
+        width: 75%;
+        height: 600px;
+        max-width: 300px;
+    }
+}
+
+/* ===== 横屏视频样式（16:9比例）===== */
+.video-landscape {
+    text-align: center;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.video-landscape iframe {
+    width: 85%;
+    height: 478px; /* 16:9比例的高度 */
+    max-width: 850px;
+    aspect-ratio: 16/9; /* 保持比例 */
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== 竖屏视频样式（9:16比例）===== */
+.video-portrait {
+    text-align: center;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.video-portrait iframe {
+    width: 45%; /* 竖屏宽度较小 */
+    height: 800px; /* 竖屏高度较大 */
+    max-width: 400px; /* 限制最大宽度 */
+    aspect-ratio: 9/16; /* 保持竖屏比例 */
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}

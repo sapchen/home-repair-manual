@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>请我喝一杯咖啡</title>
+    <style>
+        body { margin: 0; padding: 15px; font-family: sans-serif; max-width: 800px; margin: 0 auto; font-size: 14px; }
+        header { text-align: center; margin-bottom: 25px; }
+        h1 { font-size: 20px; }
+        .payment-methods { display: flex; flex-wrap: wrap; justify-content: center; gap: 100px; margin-bottom: 100px; }
+        .payment-method { text-align: center; padding: 15px; font-size: 13px; }
+        .qr-code { width: 200px; height: 200px; margin: 0 auto 10px; }
+        .warning { background: #fff3cd; border: 1px solid #ffeaa7; padding: 12px; margin-bottom: 15px; font-size: 13px; margin-top: 30px; }
+        .warning h2 { font-size: 15px; margin: 0 0 8px 0; }
+        .warning ul { margin: 8px 0 0 15px; padding: 0; }
+        .warning li { margin-bottom: 5px; }
+        footer { text-align: center; margin-top: 15px; color: #666; font-size: 13px; }
+        @media (max-width: 600px) { .payment-methods { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <header>
+        </br>
+        </br>
+        <h1>请我喝一杯咖啡</h1>
+        </br>
+    </header>
+    
+    <section class="payment-methods">
+        <div class="payment-method">
+            <div class="qr-code">
+                <img src="./images/sponsor/微信支付码.png" width="200" alt="微信赞赏二维码"/>
+            </div>
+        </div>
+        
+        <div class="payment-method">
+            <div class="qr-code">
+                <img src="./images/sponsor/支付宝支付码.jpg" width="200" alt="支付宝二维码"/>
+            </div>
+        </div>
+    </section>
+    
+    <section class="warning">
+        <h2>安全提醒 (必读)</h2>
+        <ul>
+            <li>这是本项目的 <strong>唯一官方支助渠道</strong></li>
+            <li>请务必通过本项目 <strong>GitHub Pages README页面</strong> 的链接访问此页面</li>
+            <li><strong>切勿相信</strong> 任何其他渠道发布的收款码</li>
+            <li>如果对真实性存疑，欢迎通过 <a href="https://github.com/sapchen/home-repair-manual/issues">Issues</a> 与我核实</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <a href="https://github.com/sapchen/home-repair-manual/">返回Github项目首页</a>
+    </footer>
+</body>
+</html>
