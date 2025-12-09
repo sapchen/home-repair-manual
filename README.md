@@ -37,8 +37,8 @@
 
 必须：署名（注明原作者和项目链接）、以相同方式共享（衍生作品使用相同协议）
 
-### 封面图来源声明
+## 封面图来源声明
 所有章节封面图皆来源于：北京邮电大学官方网站[校园风光](http://www.bupt.edu.cn/bygk/zjby/xyfg.htm)栏目。
 
-### 请我喝一杯咖啡
+## 请我喝一杯咖啡
 [请我喝一杯咖啡](https://sapchen.github.io/home-repair-manual/buy-me-a-coffee.html)
