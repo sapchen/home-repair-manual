@@ -3,16 +3,16 @@
 
 源接口的内部是这样子的：
 
-![源口](/home-repair-manual/images/6-升级汽车/07-OBD接口一拖二/源口.jpg)
+![源口](/images/6-升级汽车/07-OBD接口一拖二/源口.jpg)
 
 把OBD接口从内侧拆下：
 
-![拆卸](/home-repair-manual/images/6-升级汽车/07-OBD接口一拖二/拆卸.jpg)
-![拆完](/home-repair-manual/images/6-升级汽车/07-OBD接口一拖二/拆完.jpg)
+![拆卸](/images/6-升级汽车/07-OBD接口一拖二/拆卸.jpg)
+![拆完](/images/6-升级汽车/07-OBD接口一拖二/拆完.jpg)
 
 再把一拖二接线连接好：
 
-![安装](/home-repair-manual/images/6-升级汽车/07-OBD接口一拖二/安装.jpg)
-![安装1](/home-repair-manual/images/6-升级汽车/07-OBD接口一拖二/安装1.jpg)
+![安装](/images/6-升级汽车/07-OBD接口一拖二/安装.jpg)
+![安装1](/images/6-升级汽车/07-OBD接口一拖二/安装1.jpg)
 
 最后再把两个口中的一个接到源口（忘记拍照了，就酱吧），另一个口空着准备接HUD抬显即可。

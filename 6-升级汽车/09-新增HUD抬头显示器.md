@@ -3,12 +3,12 @@ HUD的连接非常简单，走线就是从密封条里面走，其余的面板�
 
 先更换面板：
 
-![更换面板](/home-repair-manual/images/6-升级汽车/09-新增HUD抬头显示器/更换面板.jpg)
+![更换面板](/images/6-升级汽车/09-新增HUD抬头显示器/更换面板.jpg)
 
 测试一下效果：
 
-![测试](/home-repair-manual/images/6-升级汽车/09-新增HUD抬头显示器/测试.jpg)
+![测试](/images/6-升级汽车/09-新增HUD抬头显示器/测试.jpg)
 
 搞定：
 
-![搞定](/home-repair-manual/images/6-升级汽车/09-新增HUD抬头显示器/搞定.jpg)
+![搞定](/images/6-升级汽车/09-新增HUD抬头显示器/搞定.jpg)
