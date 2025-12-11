@@ -17,8 +17,6 @@
 
 **项目Github源地址**： [https://github.com/sapchen/home-repair-manual/](https://github.com/sapchen/home-repair-manual/)
 
-**Github国内Gitee镜像地址**： [https://gitee.com/bupt061837/home-repair-manual/releases/](https://gitee.com/bupt061837/home-repair-manual/releases/)
-
 ## 本地构建
 **克隆仓库**： git clone https://github.com/sapchen/home-repair-manual.git
 
