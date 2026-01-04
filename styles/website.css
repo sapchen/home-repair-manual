@@ -49,7 +49,7 @@
 }
 
 /* ===== 移动端适配 ===== */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .markdown-section img {
         max-width: 95% !important; /* 移动端图片稍宽 */
         margin: 1.5rem auto; /* 保持标准居中 */
