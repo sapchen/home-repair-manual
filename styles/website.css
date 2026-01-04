@@ -63,14 +63,12 @@
     .video-landscape iframe {
         width: 95%;
         height: 250px;
-        max-width: none;
     }
     
     /* 竖屏在移动端 */
     .video-portrait iframe {
-        width: 75%;
-        height: 600px;
-        max-width: 300px;
+        width: 95%;
+        height: 500px;
     }
 }
 
