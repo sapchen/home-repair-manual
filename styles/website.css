@@ -68,7 +68,7 @@
     /* 竖屏在移动端 */
     .video-portrait iframe {
         width: 95%;
-        height: 65%;
+        height: 50%;
     }
 }
 
