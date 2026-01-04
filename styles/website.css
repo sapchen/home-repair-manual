@@ -62,13 +62,13 @@
     /* 横屏在移动端 */
     .video-landscape iframe {
         width: 95%;
-        height: 250px;
+        height: 95%;
     }
     
     /* 竖屏在移动端 */
     .video-portrait iframe {
         width: 95%;
-        height: 500px;
+        height: 95%;
     }
 }
 
