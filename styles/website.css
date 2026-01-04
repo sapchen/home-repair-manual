@@ -49,7 +49,7 @@
 }
 
 /* ===== 移动端适配 ===== */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .markdown-section img {
         max-width: 95% !important; /* 移动端图片稍宽 */
         margin: 1.5rem auto; /* 保持标准居中 */
@@ -97,7 +97,7 @@
 }
 
 .video-portrait iframe {
-    width: 65%; /* 竖屏宽度较小 */
+    width: 75%; /* 竖屏宽度较小 */
     height: 800px; /* 竖屏高度较大 */
     max-width: 650px; /* 限制最大宽度 */
     aspect-ratio: 9/16; /* 保持竖屏比例 */
