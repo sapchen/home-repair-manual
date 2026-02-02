@@ -37,10 +37,3 @@
 
 ## 封面图来源声明
 所有章节封面图皆来源于：北京邮电大学官方网站[校园风光](http://www.bupt.edu.cn/bygk/zjby/xyfg.htm)栏目。
-
-[闽ICP备2026000687号-1](https://beian.miit.gov.cn/)
-
-<a href="https://beian.mps.gov.cn/#/query/webSearch?code=35010202002051">
-<img src="images/logo/备案图标.svg" width="20" height="20" style="vertical-align: middle;" alt="公网安备">
-<span style="vertical-align: middle;">闽公网安备35010202002051号</span>
-</a>
