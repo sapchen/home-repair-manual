@@ -37,3 +37,6 @@
 
 ## 封面图来源声明
 所有章节封面图皆来源于：北京邮电大学官方网站[校园风光](http://www.bupt.edu.cn/bygk/zjby/xyfg.htm)栏目。
+
+[闽ICP备2026000687号-1](https://beian.miit.gov.cn/)
+[闽公网安备35010202002051号](https://beian.mps.gov.cn/#/query/webSearch?code=35010202002051)
