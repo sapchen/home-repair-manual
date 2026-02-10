@@ -13,7 +13,7 @@
 **全面覆盖生活场景**：包含​​自行车维修​​、​​家电维护​​、​​电子设备修复​​、​​家具修缮​​、​​管道改造​​、​​汽车升级​​及​​生活实用技巧​​等多个门类，助您轻松应对家中常见问题。
 
 ## 仓库
-**在线访问**： [https://sapchen.github.io/home-repair-manual/](https://sapchen.github.io/home-repair-manual/)
+**Github Pages在线访问**： [https://sapchen.github.io/home-repair-manual/](https://sapchen.github.io/home-repair-manual/)
 
 **项目Github源地址**： [https://github.com/sapchen/home-repair-manual/](https://github.com/sapchen/home-repair-manual/)
 
