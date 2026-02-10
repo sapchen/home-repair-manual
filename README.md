@@ -20,11 +20,13 @@
 ## 本地构建
 **克隆仓库**： git clone https://github.com/sapchen/home-repair-manual.git
 
-**安装nodejs**： choco install nodejs-lts
+**安装nodejs**： winget install OpenJS.NodeJS.LTS
 
 **安装honkit**： npm install -g honkit
 
-**部署本地http服务**： honkit serve
+**本地开发**： honkit serve
+
+**生产构建**： honkit build
 
 **生成Epub文件**： honkit epub ./ ./家庭维修手册.epub
 
