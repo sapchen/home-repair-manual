@@ -10,12 +10,12 @@
 
 **详尽的图文教程**：从工具准备、问题排查、解决步骤到复盘反思，一步步指导您完成操作。
 
-**全面覆盖生活场景**：包含​​自行车维修​​、​​家电维护​​、​​电子设备修复​​、​​家具修缮​​、​​管道改造​​、​​汽车升级​​及​​生活实用技巧​​等多个门类，助您轻松应对家中常见问题。
+**全面覆盖生活场景**：包含​维修​自行车​​、​维修​家电​​、​​维修电子设备​​、​​维修家具​​、​改造​管道​​、​​生活小技巧​​​及​​升级汽车​等多个门类，助您轻松应对家中常见问题。
 
 ## 仓库
 **Github Pages在线访问**： [https://sapchen.github.io/home-repair-manual/](https://sapchen.github.io/home-repair-manual/)
 
-**项目Github源地址**： [https://github.com/sapchen/home-repair-manual/](https://github.com/sapchen/home-repair-manual/)
+**Github项目源地址**： [https://github.com/sapchen/home-repair-manual/](https://github.com/sapchen/home-repair-manual/)
 
 ## 本地构建
 **克隆仓库**： git clone https://github.com/sapchen/home-repair-manual.git
