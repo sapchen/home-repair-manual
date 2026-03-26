@@ -1,7 +1,5 @@
 #  家庭维修手册（Home Repair Manual）
-[![在线阅读](https://img.shields.io/badge/在线阅读-GitHub%20Pages-blue?logo=github)](https://sapchen.github.io/home-repair-manual/)
-[![许可证](https://img.shields.io/badge/许可证-CC%20BY--SA%204.0-green)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![欢迎贡献](https://img.shields.io/badge/欢迎贡献-PRs%20Welcome-brightgreen)](https://makeapullrequest.com)
+[![许可证](https://img.shields.io/badge/许可证-CC%20BY--NC--SA%204.0-green)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## 内容简介
 你是否曾因家中水管漏水发臭、电灯不亮、门窗异响等问题而感到头疼？请师傅上门维修不仅费用高，而且可能需要等待很长时间。
@@ -13,8 +11,6 @@
 **全面覆盖生活场景**：包含​维修​自行车​​、​维修​家电​​、​​维修电子设备​​、​​维修家具​​、​改造​管道​​、​​生活小技巧​​​及​​升级汽车​等多个门类，助您轻松应对家中常见问题。
 
 ## 仓库
-**Github Pages在线访问**： [https://sapchen.github.io/home-repair-manual/](https://sapchen.github.io/home-repair-manual/)
-
 **Github项目源地址**： [https://github.com/sapchen/home-repair-manual/](https://github.com/sapchen/home-repair-manual/)
 
 ## 本地构建
@@ -31,11 +27,13 @@
 **生成Epub文件**： honkit epub ./ ./家庭维修手册.epub
 
 ## 许可协议
-**CC BY-SA 4.0**：本项目所有内容基于 知识共享 署名-相同方式共享 4.0 国际许可协议 授权。
+**CC BY-NC-SA 4.0**：本项目所有内容基于 知识共享 署名-非商业使用-相同方式共享 4.0 国际许可协议 授权。
 
-可以自由：分享、修改、商业使用本作品。
+可以自由：分享、修改本作品。
 
-必须：署名（注明原作者和项目链接）、以相同方式共享（衍生作品使用相同协议）
+必须：署名（注明原作者和项目链接）、以相同方式共享（衍生作品使用相同协议）。
+
+**不允许**：商业使用（包括但不限于将本作品内容用于付费课程、广告、销售等营利性场景）。
 
 ## 封面图来源声明
 所有章节封面图皆来源于：北京邮电大学官方网站[校园风光](http://www.bupt.edu.cn/bygk/zjby/xyfg.htm)栏目。
